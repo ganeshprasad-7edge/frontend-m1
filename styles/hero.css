@@ -61,7 +61,60 @@
     color: white;
 }
 
-/* .main-container{
-    width: 100%;
-    position: absolute;
-} */
+.main-container {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .main-container {
+        flex-direction: column;
+        padding: 80px 20px 40px;
+        min-height: auto;
+    }
+
+    .img-hero {
+        position: static;
+        width: 100%;
+        height: auto;
+        max-width: 400px;
+        margin-bottom: 30px;
+    }
+
+    .hero-content {
+        position: static;
+        width: 100%;
+        max-width: 500px;
+        text-align: center;
+    }
+
+    .sub-heading {
+        width: 100%;
+        font-size: 32px;
+        line-height: 42px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .description {
+        width: 100%;
+        font-size: 16px;
+        line-height: 26px;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .btn-purchase-ui-kit,
+    .btn-learn-more {
+        width: 160px;
+        height: 40px;
+        margin: 10px 5px;
+        font-size: 14px;
+    }
+
+    .btn-learn-more {
+        margin-left: 5px;
+    }
+}
