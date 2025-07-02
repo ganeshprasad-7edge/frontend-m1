@@ -17,6 +17,7 @@
 <body>
     <!--Header-->
     <header class="header">
+        <button class="menu-toggle">☰</button>
         <div class="group">
             <h3 class="home">Home</h3>
             <h3 class="about">About</h3>
@@ -161,6 +162,14 @@
             </div>
         </div>
     </footer>
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const group = document.querySelector('.group');
+        
+        menuToggle.addEventListener('click', () => {
+            group.classList.toggle('active');
+        });
+    </script>
 </body>
 
 </html>
