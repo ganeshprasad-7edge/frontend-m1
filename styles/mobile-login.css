@@ -1,0 +1,90 @@
+
+.mobile-login {
+    width: 1440;
+    height: 742;
+    top: 1110px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.img-mobile-login {
+    width: 540px;
+    height: 524.31px;
+    top: 1119.65px;
+    right: 100px;
+    position: absolute;
+}
+
+.mobile-login-content {
+    width: 540px;
+    height: 204px;
+    top: 1270px;
+    left: 165px;
+    position: absolute;
+
+}
+
+.mobile-login-heading {
+    width: 540px;
+    height: 48px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0px;
+
+}
+
+.mobile-login-description {
+    margin-top: 35px;
+    width: 540px;
+    height: 140px;
+    top: 64px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: rgba(111, 124, 178, 1);
+    position: absolute;
+}
+
+.icon-container {
+    padding-top: 140px;
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.icon-box {
+    flex: 1;
+}
+
+.img-icon {
+    width: 36;
+    height: 36;
+
+}
+
+.icon-title {
+    width: 255;
+    height: 26;
+    top: 50px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: rgba(9, 17, 51, 1)
+}
+
+.icon-body {
+    width: 255;
+    height: 54;
+    top: 82px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0px;
+    color: rgba(93, 105, 112, 1);
+}

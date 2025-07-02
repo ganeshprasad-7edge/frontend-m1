@@ -1,0 +1,67 @@
+
+.img-hero {
+    width: 1490.0318603515625;
+    height: 1161;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+.hero-content {
+    width: 539.37353515625px;
+    height: 421px;
+    top: 303px;
+    left: 163.12px;
+    position: absolute;
+}
+
+.sub-heading {
+    width: 539px;
+    height: 132px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 66px;
+    letter-spacing: 1px;
+    color: rgba(9, 17, 51, 1);
+    margin-bottom: 10px;
+}
+
+.description {
+    margin-top: 0;
+    width: 539px;
+    height: 164px;
+    top: 152px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0px;
+
+}
+
+.btn-learn-more {
+    border: 2px solid rgba(9, 17, 51, 1);
+    background: rgba(255, 255, 255, 1);
+    width: 189px;
+    height: 36px;
+    margin-left: 25px;
+    border-radius: 2px;
+    border-width: 2px;
+
+}
+
+.btn-purchase-ui-kit {
+    width: 189px;
+    height: 36px;
+    border-radius: 2px;
+    border-width: 2px;
+    /* border: 2px solid rgba(9, 17, 51, 1); */
+    background: rgba(17, 27, 71, 1);
+    color: white;
+}
+
+/* .main-container{
+    width: 100%;
+    position: absolute;
+} */
