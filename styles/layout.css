@@ -1,0 +1,124 @@
+/* Global Layout System */
+:root {
+    --container-width: 1440px;
+    --container-padding: 50px;
+    --content-width: calc(var(--container-width) - 2 * var(--container-padding));
+}
+
+.container {
+    width: var(--container-width);
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 var(--container-padding);
+    position: relative;
+}
+
+.section {
+    width: 100%;
+    position: relative;
+}
+
+/* Typography */
+.heading-primary {
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 38px;
+    color: rgba(55, 68, 126, 1);
+    margin: 0;
+}
+
+.heading-secondary {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    color: rgba(9, 17, 51, 1);
+    margin: 0;
+}
+
+.text-body {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(111, 124, 178, 1);
+    margin: 0;
+}
+
+.nav-text {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(80, 95, 152, 1);
+    margin: 0;
+}
+
+/* Buttons */
+.btn {
+    font-family: Roboto;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn-primary {
+    background: rgba(17, 27, 71, 1);
+    color: white;
+    width: 160px;
+    height: 26px;
+    font-size: 12px;
+}
+
+.btn-secondary {
+    background: rgba(17, 27, 71, 1);
+    color: white;
+    width: 189px;
+    height: 36px;
+    border-radius: 2px;
+}
+
+.btn-outline {
+    border: 2px solid rgba(9, 17, 51, 1);
+    background: white;
+    color: rgba(9, 17, 51, 1);
+    width: 189px;
+    height: 36px;
+    border-radius: 2px;
+}
+
+/* Flex utilities */
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-center {
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-between {
+    justify-content: space-between;
+}
+
+.flex-align-center {
+    align-items: center;
+}
+
+.gap-small {
+    gap: 20px;
+}
+
+.gap-medium {
+    gap: 30px;
+}
+
+.gap-large {
+    gap: 50px;
+}
