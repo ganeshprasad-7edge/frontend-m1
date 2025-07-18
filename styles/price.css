@@ -90,9 +90,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* gap: 5px; */
     position: relative;
     z-index: 2;
+    margin-top: 10px;
 }
 
 .price-body {
@@ -163,9 +163,11 @@
         margin-bottom: 20px;
     }
 
-    .btn-purchase-ui-kit {
-        width: 160px;
+    .price-purcahse-block .btn-purchase-ui-kit {
+        width: 200px;
         height: 40px;
         font-size: 14px;
+        margin: 0 auto;
+        display: block;
     }
 }

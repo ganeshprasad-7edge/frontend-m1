@@ -9,6 +9,7 @@
     margin: 0 auto;
     padding-left: 100px;
     padding-right: 100px;
+    clear: both;
 }
 
 .img-mobile-login {

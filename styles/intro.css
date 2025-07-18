@@ -53,10 +53,10 @@
 
 @media (max-width: 768px) {
     .intro-container {
-        position: static;
         width: 100%;
         padding: 40px 20px;
         gap: 30px;
+        box-sizing: border-box;
     }
 
     .intro-row {
@@ -95,8 +95,10 @@
     }
 
     .btn-purchase-ui-kit {
-        width: 160px;
+        width: 200px;
         height: 40px;
         font-size: 14px;
+        margin: 0 auto;
+        display: block;
     }
 }
