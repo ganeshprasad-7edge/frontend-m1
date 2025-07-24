@@ -1,71 +1,101 @@
 .intro-container {
   display: flex;
   flex-direction: column;
-  gap: 50px;
-  max-width: 1440px;
+  gap: 3.125rem;
+  max-width: 90%;
   margin: 0 auto;
-  padding: 50px 165px;
+  padding: 3.125rem 8%;
 }
 
 .intro-row {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 50px;
-  height: 569px;
+  gap: 3.125rem;
+  min-height: 35rem;
+  margin-bottom: 1.5rem;
 }
 
 .intro-img {
-  width: 480px;
-  height: 315.85px;
+  width: 45%;
+  height: auto;
+  max-width: 30rem;
 }
 
 .intro-img-large {
-  width: 540px;
-  height: 387px;
+  width: 45%;
+  height: auto;
+  max-width: 33.75rem;
 }
 
 .intro-content {
-  width: 445px;
-  height: 228px;
+  width: 45%;
+  max-width: 27.8rem;
 }
 
 .intro-heading {
-  width: 445px;
-  height: 48px;
+  width: 100%;
   font-family: Roboto;
   font-weight: 500;
-  font-size: 36px;
-  line-height: 48px;
-  letter-spacing: 0px;
+  font-size: 2.25rem;
+  line-height: 1.3;
+  letter-spacing: 0;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .intro-description {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  width: 445px;
-  height: 166px;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  width: 100%;
   font-family: Roboto;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
-  letter-spacing: 0px;
+  font-size: 1rem;
+  line-height: 1.625;
+  letter-spacing: 0;
   color: rgba(80, 95, 152, 1);
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+@media (max-width: 1024px) {
+  .intro-row {
+    gap: 2rem;
+  }
+  
+  .intro-img, 
+  .intro-img-large {
+    width: 42%;
+  }
+  
+  .intro-content {
+    width: 50%;
+  }
+  
+  .intro-heading {
+    font-size: 1.875rem;
+  }
+  
+  .intro-description {
+    font-size: 0.9375rem;
+  }
 }
 
 @media (max-width: 768px) {
   .intro-container {
     width: 100%;
-    padding: 40px 20px;
-    gap: 30px;
+    padding: 2.5rem 5%;
+    gap: 1.875rem;
     box-sizing: border-box;
+    margin-bottom: 3.75rem;
   }
 
   .intro-row {
     flex-direction: column;
     text-align: center;
-    height: auto;
-    gap: 20px;
+    min-height: auto;
+    gap: 1.25rem;
+    margin-bottom: 2.5rem;
   }
 
   .intro-img,
